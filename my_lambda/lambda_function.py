@@ -10,7 +10,7 @@ from mongo import mark_file_as_failed, update_job_status,get_mongo_collection,up
 load_dotenv()
 S3_BUCKET_NAME='yellow-checks-test'
 
-print("final version")
+print("Finalled version")
 def get_original_filename_from_mongo(file_id: str) -> str:
     """
     Fetch original filename from MongoDB using file_id.
